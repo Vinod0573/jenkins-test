@@ -1,0 +1,89 @@
+ .toggleWrapper .container {
+   text-align: center;
+ }
+
+ .toggleWrapper .toggle-switch {
+   position: relative;
+   width: 80px;
+   display: inline-block;
+   text-align: left;
+   /* top: 8px; */
+ }
+
+ .toggleWrapper .checkbox {
+   display: none;
+ }
+
+ .toggleWrapper .label {
+   display: block;
+   overflow: hidden;
+   cursor: pointer;
+   border: 0 solid #bbb;
+   border-radius: 20px;
+   margin: 0;
+
+ }
+
+ .toggleWrapper .inner {
+   display: block;
+   width: 200%;
+   margin-left: -100%;
+   transition: margin 0.3s ease-in 0s;
+ }
+
+ .toggleWrapper .inner:before,
+ .inner:after {
+   display: block;
+   float: left;
+   width: 50%;
+   height: 24px;
+   padding: 0;
+   line-height: 24px;
+   font-size: 9px;
+   color: white;
+   font-weight: bold;
+   box-sizing: border-box;
+ }
+
+ .toggleWrapper .inner:before {
+   content: "Enabled";
+   text-transform: uppercase;
+   padding-left: 9px;
+   /* background-color: #2f855a; */
+   background-color: #fff;
+   color: #000000;
+ }
+
+ .toggleWrapper .inner:after {
+   content: "Disabled";
+   text-transform: uppercase;
+   padding-right: 10px;
+   /* background-color: #bbb; */
+   background-color: #fff;
+   color: #000000;
+   text-align: right;
+   /* font-size: 12px; */
+   font-weight: 900;
+ }
+
+ .toggleWrapper .switch {
+   display: block;
+   width: 20px;
+   /* margin: -4%; */
+   background: #fff;
+   position: absolute;
+   top: 0 ;
+   bottom: 0;
+   /* right: 40px; */
+   border: 0 solid #bbb;
+   border-radius: 20px;
+   transition: all 0.3s ease-in 0s;
+ }
+
+ .toggleWrapper .checkbox:checked+.label .inner {
+   margin-left: 0;
+ }
+
+ .toggleWrapper .checkbox:checked+.label .switch {
+   right: 0px;
+ }

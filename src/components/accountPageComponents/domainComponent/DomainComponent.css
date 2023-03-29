@@ -1,0 +1,62 @@
+.DomainComponentDiv-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.DomainComponentDiv-wrapper .DomainComponentDiv{
+  width: 160px;
+  height: 40px;
+  background: #FFFFFF;
+  box-shadow: 0px 89.1769px 71.3415px rgba(36, 69, 152, 0.05),
+    0px 45.1458px 31.1004px rgba(36, 69, 152, 0.03375),
+    0px 17.8354px 11.593px rgba(36, 69, 152, 0.025),
+    0px 3.90149px 4.12443px rgba(36, 69, 152, 0.01625);
+  border-radius: 26.7191px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.DomainComponentDiv-wrapper .DomainComponentDiv:hover{
+  background-color: #DDECFF;
+}
+
+.DomainComponentDiv-wrapper .logoDiv{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.DomainComponentDiv-wrapper .logoDiv .logoImg{
+  color: black;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+
+  /* background-color: red; */
+
+}
+.DomainComponentDiv-wrapper .containDiv{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+  width: 60%
+}
+.DomainComponentDiv-wrapper .highlight{
+  background-color: #0174FF !important;
+  
+}
+.DomainComponentDiv-wrapper .highlightWhite{
+  color: #FFFFFF;
+}

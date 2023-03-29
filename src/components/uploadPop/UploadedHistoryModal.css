@@ -1,0 +1,119 @@
+.uploaded-history{
+    /* width: 540px;
+    height: 572px;
+    background: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-family: 'Roboto';
+}
+
+.uploaded-history .showModalBlur {
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    width: 80%;
+    height: 100%;
+    /* padding-top: 100px; */
+
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .uploaded-history .uploaded-details-section{
+    width: 500px;
+    height:500px;
+    background: #ffffff;
+    box-shadow: 0px 96.7895px 77.4316px rgb(36 69 152 / 5%),
+      0px 48.9997px 33.7554px rgb(36 69 152 / 3%),
+      0px 19.3579px 12.5826px rgb(36 69 152 / 3%),
+      0px 4.23454px 4.47652px rgb(36 69 152 / 2%);
+    border-radius: 7px;
+    padding: 1% 1%;
+  }
+
+  .uploaded-history .upload-history-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px;
+  }
+
+  .uploaded-history .upload-details-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    font-weight: 700;
+    font-size: 25px;
+    color: #0F0F0F;
+  }
+
+  .uploaded-history .list-details{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    height: 40px;
+    width:90%;
+    background: #FFFFFF;
+    border: 0.5px solid #E3E3E3;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0F0F0F;
+  }
+
+  .uploaded-history .upload-details-content{
+    height: 60%;
+    overflow: scroll;
+
+  }
+
+  .uploaded-history .upload-details-footer{
+    height: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 5%;
+  }
+
+  .uploaded-history .name{
+    width: 50%;
+  }
+
+  .uploaded-history .type{
+    width: 15%;
+  }
+  .uploaded-history .date{
+    width: 25%;
+  }
+
+  .uploaded-history .type-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex-direction: row;
+  }
+
+  .uploaded-history .okBtnInside{
+    font-size: 16px;
+    background-color: #0174FF;
+    width: auto;
+    border: none;
+    padding: 1% 1%;
+    color: #FFFFFF;
+    border-radius: 2px;
+    cursor: pointer;
+
+  }
+
+

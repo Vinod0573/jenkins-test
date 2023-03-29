@@ -1,0 +1,39 @@
+.dateFilterWrapper{
+margin-right: 2vmax;
+}
+.dateFilterWrapper .extraSelectedClass{
+    width: 190px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+
+.dateFilterWrapper .dfTitle{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0px 5px 5px 5px;
+}
+
+.dateFilterWrapper .fdCalendarArea .fdCalendarDateRange {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0px 4.88667px 7.33px -1.22167px rgba(0, 0, 0, 0.12), 0px 2.44334px 4.88667px -1.22167px rgba(0, 0, 0, 0.07);
+border-radius: 7px; */
+
+}
+
+.dateFilterWrapper .fdCalendarArea .fdCalendarDateRange .dateRangeArea {
+    background: #ecf1f4;
+    font-size: 14px;
+    border-radius: 4.74074px;
+    padding: 3px 20px;
+    cursor: pointer;
+}
+
+/* .dateFilterWrapper .fdCalendarArea .fdCalendarDateRange .dateRangeArea {
+    cursor: pointer;
+} */
+
+/* .dateFilterWrapper{
+    margin: 0px 10px 0px 10px;
+} */

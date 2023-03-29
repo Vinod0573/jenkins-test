@@ -1,0 +1,47 @@
+.uploadInputTopdiv{
+        margin: 20px 0px;
+}
+
+.uploadFileLabel{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16.5px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.4);
+    padding: 11px 7px;
+    color:#000000;
+    font-size:12px;
+}
+
+.uploadFileVisible{
+    width: 100%;
+    /* background: #FFFFFF; */
+    border: 0.868545px solid rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6.07981px;
+}
+.inputUFLable{
+    cursor:"pointer";
+    display:"flex";
+    align-items:"center";
+}
+
+.UPInputPlaceholder{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16.5px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.4);
+    padding: 11px 7px;
+}
+
+
+.uploadFileInput{
+    padding: 5px 5px;
+    /* opacity: 0;
+    position: absolute;
+    z-index: 1; */
+}

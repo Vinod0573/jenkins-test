@@ -1,0 +1,33 @@
+
+.DomainComponenWrapper{
+    /* background: linear-gradient(196.77deg, #FFFFFF 11.07%, #C6D7EB 171.07%); */
+   /* height: 82vh; */
+}
+
+
+  
+.DomainComponenWrapper .heading-div{
+    text-align: center;
+    font-family: Roboto;
+   font-style: normal;
+   font-weight: 500;
+    font-size: 32px;
+    /* line-height: 56px; */
+    margin-top: 10px;
+    padding-top: 1%;
+   color: #000000;
+}
+ .DomainComponenWrapper .div-DomainconatainerFlex{
+    display: flex;
+    justify-content: center;
+   
+    margin-top: 5%;
+    
+}
+.DomainComponenWrapper .DomainComponentContainer{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 100px;
+    row-gap: 100px;
+
+}

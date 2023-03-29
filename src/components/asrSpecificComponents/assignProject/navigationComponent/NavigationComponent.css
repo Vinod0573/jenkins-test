@@ -1,0 +1,190 @@
+.NavigationComponentWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.NavigationComponentWrapper .NavigationComponent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    width:100%;
+    padding: 10px;
+    background: rgba(198, 215, 235, 0.27);
+}
+.NavigationComponentWrapper .firstIconDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NavigationComponentWrapper .Buttondiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+}
+.NavigationComponentWrapper .endIcons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 8%;
+}
+.NavigationComponentWrapper .GrDiv{
+    /* width: 75px; */
+    height: 25px;
+    text-align: center;
+    padding: 5px;
+    background: #626D7F;
+   
+}
+.NavigationComponentWrapper .paraGrDiv{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+color: #FFFFFF;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.NavigationComponentWrapper .firstIconImg{
+    position: relative;
+    left: 2px;
+}
+.NavigationComponentWrapper .neo-switch label{
+    height: 2.3rem;
+}
+.NavigationComponentWrapper .neo-switch label span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    box-shadow: -2px -4px 6px 0px rgba(255, 255, 255, 0.6), 2px 4px 6px 0px rgba(136, 165, 191, .6);
+    transition: all 0.3s ease;
+    background: black;
+    border: 2px solid #F969B1;
+}
+.NavigationComponentWrapper .neo-switch label:before {
+    position: relative;
+    top: 1px;
+    left: 1px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 2.5rem;
+    box-shadow: -2px -4px 6px 0px rgba(255, 255, 255, 0.6) inset, 2px 4px 6px 0px rgba(136, 165, 191, .6) inset;
+    content:"";
+    background: black;
+    border: 1px solid #F969B1;
+    transition: background 0.3s ease;
+}
+
+.NavigationComponentWrapper .MessageBoxComponent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width:100%;
+    flex-direction: column;
+}
+
+.NavigationComponentWrapper .Message-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    overflow: scroll;
+    width: 90%;
+    margin: 10px;
+   
+}
+
+.NavigationComponentWrapper .addClassMessageSection{
+    margin-right: 10%;
+}
+
+.NavigationComponentWrapper .LeftSideComponent{
+    max-width:20%;
+    height: 90vh;
+}
+
+.NavigationComponentWrapper .Message-List-Section{
+    width: 100%;
+    height: 70vh;
+    padding: 0px 10px;
+}
+.NavigationComponentWrapper .reportTableSearchInput{
+    border: none;
+    width: 100%;
+}
+
+.NavigationComponentWrapper .reportTableSearchInput:focus{
+    outline: none;
+}
+
+.NavigationComponent .AudioComponentDiv{
+    width: 100%;
+    height: 100%;
+}
+
+.NavigationComponent .AudioComponentDiv div{
+    width: 60% !important;
+    height: 100% !important;
+    margin:auto;
+}
+
+.no-data-found{
+    width:350px;
+}
+
+.no-messages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.NavigationComponent .backBtn{
+text-align: center;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 0.7vmax;;
+line-height: 9px;
+color: #000000;
+padding-right: 1vmax;
+}
+
+.NavigationComponent .nextBtn{
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.7vmax;;
+    line-height: 9px;
+    color: #000000;
+    padding-left: 2vmax;
+}
+
+.NavigationComponent .btn-disabled{
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.NavigationComponent .DoneBtn{
+    margin-bottom: 2%;
+}
+
+.NavigationComponent .NotedIcon{
+    margin-bottom: 5%;
+}

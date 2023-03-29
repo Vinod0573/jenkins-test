@@ -1,0 +1,147 @@
+.AccountModalWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.AccountModalWrapper .CreateAccountmodal-div {
+  position: relative;
+  width: 800px;
+  height: 400px;
+  background: #ffffff;
+  border: 1px solid #ddecff;
+  box-shadow: 0px 96.7895px 77.4316px rgba(36, 69, 152, 0.05),
+    0px 48.9997px 33.7554px rgba(36, 69, 152, 0.03375),
+    0px 19.3579px 12.5826px rgba(36, 69, 152, 0.025),
+    0px 4.23454px 4.47652px rgba(36, 69, 152, 0.01625);
+  border-radius: 7px;
+  font-family: "Roboto";
+}
+.AccountModalWrapper .heading-div {
+  position: relative;
+  top: 25%;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 28px;
+  color: #0174ff;
+  margin-bottom: 2%;
+}
+.AccountModalWrapper .input-container-div {
+  text-align: center;
+  padding-top: 5%;
+}
+.AccountModalWrapper .input-div {
+  width: 600px;
+  height: 50px;
+  margin-top: 10%;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  /* line-height: 35px; */
+  padding-left: 50px;
+  background-blend-mode: soft-light, normal;
+  border: 1px solid #d8d8d8;
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+.AccountModalWrapper .button-container-div {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.AccountModalWrapper .button-container-div .CreateAccount-btn {
+  width: 200px;
+  height: 40px;
+  background: #0174ff;
+  /* box-shadow: inset 0px -5.25373px 2.62687px rgba(0, 0, 0, 0.05), inset 0px 5.25373px 2.62687px rgba(255, 255, 255, 0.25), inset 5.25373px 5.25373px 34.1493px rgba(255, 255, 255, 0.25); */
+  backdrop-filter: blur(105.075px);
+  /* Note: backdrop-filter has minimal browser support */
+  border: none;
+  border-radius: 7px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 37px;
+  cursor: pointer;
+  color: #ffffff;
+}
+.AccountModalWrapper .button-container-div .Cancel-btn {
+  width: 180px;
+  height: 40px;
+  background: #ffffff;
+  border: 1.31343px solid #0174ff;
+  box-sizing: border-box;
+
+  border-radius: 7px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  cursor: pointer;
+  color: #000000;
+}
+.AccountModalWrapper .CreateAccountmodal-div .dropdownDiv {
+  /* width: 271.69px;
+  height: 28px; */
+  padding-top: 3%;
+  padding-left: 4%;
+  position: absolute;
+  margin-left: 4%;
+}
+
+.AccountModalWrapper .CreateAccountmodal-div .dropdownDiv .dropdownIcondiv {
+  width: 80px;
+  position: absolute;
+  top: 10%;
+  left: -2%;
+  opacity: 1;
+}
+
+.AccountModalWrapper .DomainOuterDiv {
+  width: 230px;
+  height: 50px;
+  background: #ffffff;
+  box-shadow: 0px 9.70312px 14.5547px -2.42578px rgba(0, 0, 0, 0.12),
+    0px 4.85156px 9.70312px -2.42578px rgba(0, 0, 0, 0.07);
+  border-radius: 19.4062px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.AccountModalWrapper .IconDiv {
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AccountModalWrapper .IconImg {
+  width: 110px;
+}
+.AccountModalWrapper .errorMessageLP {
+  display: flex;
+  justify-content: center;
+}
+
+.AccountModalWrapper .dropdownExtraStyle {
+  width: 180px;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 0px 5px 5px 0px;
+}
+
+.AccountModalWrapper .dropdownExtraClassToBeSelected {
+  position: absolute;
+  width: 205px;
+  background: #ffffff;
+  border: none !important;
+  box-shadow: 0px 8px 16px rgb(0 0 0 / 15%);
+  border-radius: 2px 0px 5px 5px;
+  margin: 2% -12%;
+}

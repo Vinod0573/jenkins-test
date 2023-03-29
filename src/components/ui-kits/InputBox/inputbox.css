@@ -1,0 +1,85 @@
+.input-box {
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  border-radius: 1px;
+  height: 50px;
+  border: 0.906992px solid #000000;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  width: 80%;
+  border-radius: 6px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  padding: 8px;
+}
+.input-box .input_fields {
+  background: #333333 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  padding-left: 12px;
+  border: 1px solid #333333;
+  height: auto;
+  color: #ffffff;
+  font-size: 13px;
+}
+.input-box input[type="number"]::-webkit-inner-spin-button,
+.input-box input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+.input-box input[type="number"] {
+  -moz-appearance: textfield;
+}
+.input-box input:-webkit-autofill {
+  /* -webkit-box-shadow: 0 0 0 1000px #333333 inset !important; */
+  /* -webkit-text-fill-color: #A3A3A3; */
+  transition: background-color 5000s ease-in-out 0s !important;
+}
+.input-box .input_fields:focus {
+  outline: none;
+}
+.input-box ::placeholder {
+  color: #757575;
+}
+.input-box .input_fields::-moz-placeholder {
+  color: #757575;
+}
+.input-box .input_fields::-ms-input-placeholder {
+  color: #757575;
+}
+.input-box .tel-code {
+  color: #494949;
+  font-size: 16px;
+  background: #e4eaec 0% 0% no-repeat padding-box;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 2px 0px 0px 2px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.input-box .disabled-input-field {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.input-title {
+  color: #2e2e2e;
+  font-size: 12px;
+  margin-bottom: 0px;
+  padding-bottom: 2px;
+}
+.disabled {
+  cursor: not-allowed;
+}
+.errorField {
+  border: 1px solid #dc3646 !important;
+  border-radius: 4px;
+}
+.successField {
+  border: 1px solid #36ac51 !important;
+}

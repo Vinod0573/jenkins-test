@@ -1,0 +1,24 @@
+.multi-level-dropdown{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 0px 10px 0px 10px;
+    background-color: white;
+    border-radius: 7px;
+    border: 1px solid #000000;
+}
+.multi-level-dropdown .Dropdown_button__24tY9 ,.Dropdown_button-secondary__S0fsL{
+    width: 100% !important;
+    background-color: white !important;
+}
+
+.multi-level-dropdown .Dropdown_dropdown__2JICB{
+    width: 100% !important;
+    background-color: white;
+}
+
+.activeDrop{
+    background-color: #DDECFF;
+}

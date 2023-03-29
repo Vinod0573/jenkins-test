@@ -1,0 +1,292 @@
+body{
+    background-color:#f9f8fa ;
+}
+.loginTopDiv{
+    font-family: Roboto;
+    background-color: #f9f8fa;
+}
+
+.formAreaLP .annotaottext240{
+    font-family:Roboto;
+    font-size: 2rem;
+    margin-left: 3.1rem;
+    color: #0174ff;
+    font-weight: 500;
+    margin-top: .5rem;
+}
+.tinytext0348h{
+    font-weight: 300;
+    font-size: .8rem;
+    margin-left: 3.1rem;
+margin-top: .5rem;
+    margin-bottom: 1.5rem;
+    color: #727272;
+
+}
+
+.loginHeader{
+    width: 95%;
+    padding-top:10px;
+    margin-left: auto;
+    margin-right:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+}
+
+.loginHeading{
+    flex: 1 1 100%;
+    text-align : center;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 70px;
+    color: rgba(0, 0, 0, 0.7);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.loginHeadLogo{
+    width: 12rem;
+    margin-top: 1em;
+    text-align: center;
+}
+.imdkd9{
+    width: 35%;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+.loginHeadLogo img{
+     width: 100%;
+    padding-top: 5px;
+}
+.saarthiAiLLP{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 23px;
+        color: #000000;
+}
+.formloginPageCard{
+    display: flex;
+    height: 75vh;
+    align-items: center;
+}
+
+
+
+
+
+.formAreaLP{
+    padding-top:1rem;
+    padding-bottom:20px;
+    width: 62%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 96.7895px 77.4316px rgba(36, 69, 152, 0.05), 0px 48.9997px 33.7554px rgba(36, 69, 152, 0.03375), 0px 19.3579px 12.5826px rgba(36, 69, 152, 0.025), 0px 4.23454px 4.47652px rgba(36, 69, 152, 0.01625);
+    border-radius: 7px;
+}
+
+@media (max-width:763px){
+    .formAreaLP{
+    width: 90%;
+    padding:48px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+}
+
+
+.formLabelLP{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px; 
+}
+
+
+
+.inputBorderForm{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px; */
+    padding: 2px 7px ;
+    border: 1px solid #D8D8D8;
+    border-radius: 7px;
+}
+
+
+.formInputArea{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:12px 14px;
+    border-radius: 5px;
+    outline:none;
+    border:none;
+    color:#727272;
+}
+.felxcol0293{
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    align-items: center;
+}
+.felxcol0293 >p{
+    font-family: Roboto;
+    margin-top: 1rem;
+    font-size: .75rem;
+    color: #727272;
+}
+.felxcol0293 p a{
+    text-decoration: none;
+    color:#0174ff;
+    font-weight: bold;
+}
+.summitTopDivLP{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.summitTopDivLP:active{
+    width:39%;
+}
+
+
+.formInputSubmitLP{
+    background-color: #0174ff;
+    border-radius: 7px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 28px;
+    width:100%;
+    color: #FFFFFF;
+     text-align: center;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top:20px;
+    padding: 5px 16px;
+}
+
+.formInputSubmitLP:disabled {
+    cursor: default;
+    background-color: #78b5ff;
+  }
+
+.formInputSubmitLPInactive{
+    background-color: #78b5ff;
+    border-radius: 7px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 28px;
+    width:100%;
+    color: #FFFFFF;
+     text-align: center;
+    border: none;
+    text-decoration: none;
+    cursor: progress;
+    margin-top:20px;
+    padding: 5px 16px;
+}
+
+.formLabelLP .forgetPasswordLink{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0174FF;
+    cursor: pointer;
+    text-align: right;
+    margin-top: 20px;
+}
+
+
+.forgetPasswordHeadingTopDiv{
+    margin-top: 0%;
+    padding-top: 0%;
+    text-align: center;
+}
+
+.FPHeading{
+    margin-top: 0%;
+    padding-top: 0%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.FPHeading h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+}
+
+.successfulMessageSentLink h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+    padding-bottom: 10px;
+}
+.successfulMessageSentLink p{
+    font-family: Roboto;
+}
+
+p.dontWorryMessage{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    text-align: center;
+}
+
+
+.extraErrorMessageClassNameLPSL{
+    justify-content: center;
+}
+
+
+.errorMessageLP{
+    margin-left: 10px;
+}
+
+.mailSentLogin{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.passwordVisibilityIconLP{
+    cursor: pointer;
+    width: 20px;
+}
+.smalend823{
+    width: 42%;
+}
+.belowsection{
+    font-size:12px;
+    display: flex;
+    margin-top: 1em;
+    justify-content: center;
+
+}
+.belowsection input{
+    margin-right: .5em;
+    cursor: pointer;
+}

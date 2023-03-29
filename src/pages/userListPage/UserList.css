@@ -1,0 +1,266 @@
+.UserListWrapper {
+  background-color: #ffffff;
+  padding: 0px 2.98vw 0px 3.19vw;
+  height: 90vh;
+  font-family: Roboto;
+}
+
+.UserListWrapper .headerDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 15.87vh;
+  transform: translateY(10px);
+}
+
+.UserListWrapper .FirstDiv {
+  width: 38.04%;
+  display: flex;
+  align-items: center;
+}
+.UserListWrapper .secondSectionDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.UserListWrapper .gobackDiv {
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+  min-width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.UserListWrapper .goBackIcon {
+  width: 0.5em;
+  height: auto;
+}
+.UserListWrapper .headingDiv {
+  margin-left: 6.61%;
+  width: 17.5%;
+  height: 17.3%;
+  transform: translateY(2px);
+}
+.UserListWrapper .headerDiv h2 {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  white-space: nowrap;
+}
+/* .UserListWrapper .FirstDiv .headSearchContainer {
+  display: flex;
+  padding-left: 3%;
+  padding-bottom: 1%;
+} */
+
+.UserListWrapper .searchBoxContainer {
+  margin-left: 10%;
+}
+.UserListWrapper .reportTableSearchInput {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+}
+.UserListWrapper .FirstDiv .InputBoxDiv {
+  margin-left: 10px;
+  padding-left: 10px;
+  width: 250px;
+  height: 35px;
+  margin: 10px 10px;
+  border: 1.25px solid #ddecff;
+  border-radius: 7px;
+}
+/* .UserListWrapper .FirstDiv .headingDiv {
+  margin: 5px 8px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.6);
+} */
+/* .UserListWrapper .FirstDiv .craeteUsercontainer {
+  margin-right: 2%;
+  padding-bottom: 1%;
+  cursor: pointer;
+} */
+
+.UserListWrapper .addCardColor {
+  width: 160px;
+  height: 37px;
+  background-color: #ffffff;
+  border-radius: 6.13655px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  padding: 7px 12px 3px 12px;
+  white-space: nowrap;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+.UserListWrapper .addStyleName {
+  color: grey !important;
+}
+
+.UserListWrapper .styleCreateDiv {
+  width: 150px;
+  height: 30px;
+  background: #ffffff;
+  border-radius: 7px;
+  border: 1px solid #0174ff;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+.UserListWrapper .stylePlusSign {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  color: #000000;
+}
+.UserListWrapper .styleCreateName {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+
+  margin: 5px;
+  padding-left: 4px;
+  color: #000000;
+}
+
+/* table */
+.UserListWrapper .extraTabledataAbhi table {
+  border-radius: 6px 6px 0px 0px;
+}
+/* table scrollbar */
+.UserListWrapper .extraTabledataAbhi::-webkit-scrollbar {
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.UserListWrapper .extraTabledataAbhi::-webkit-scrollbar-thumb {
+  background-color: rgba(169, 169, 169, 0.481);
+  border-radius: 5px;
+}
+
+.UserListWrapper .extraSaarthiTableTheadAbhi {
+  background-color: #0174ff !important;
+  height: 40px !important;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+  padding-top: 100px;
+}
+.UserListWrapper .extraSaarthiTableTrowAbhi {
+  background-color: #ddecff !important;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px !important;
+  color: rgba(0, 0, 0, 0.7);
+  border-collapse: collapse;
+  border-style: none !important;
+}
+.UserListWrapper .extraSaarthiTableTrowAbhi tr {
+  height: 41px;
+}
+.UserListWrapper .extraTabledataAbhi td {
+  border-left: 1px solid #ddecff;
+  border-right: 1px solid #ddecff;
+  border-top: 2px solid white;
+  border-bottom: 1px solid white;
+}
+.UserListWrapper .extraTabledataAbhi th {
+  border-left: 0.5px solid white;
+  border-right: 0.5px solid white;
+  border-top: 0.5px solid #f5f5f5;
+}
+.UserListWrapper .extraSaarthiTableTheadAbhi .titleName .titlePara {
+  flex: 0 0 100%;
+}
+.UserListWrapper .tableDiv .toogleSwitch .neo-switch label {
+  width: 63px;
+  height: 18px;
+  position: relative;
+}
+.UserListWrapper .tableDiv .toogleSwitch .neo-switch label span {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  box-shadow: -2px -4px 6px 0px rgba(255, 255, 255, 0.6),
+    2px 4px 6px 0px rgba(136, 165, 191, 0.6);
+  transition: all 0.3s ease;
+  background: #8ada9c;
+}
+.UserListWrapper
+  .tableDiv
+  .toogleSwitch
+  .neo-switch
+  #toggle-input:checked
+  + label
+  span {
+  transform: translateX(2rem);
+}
+.UserListWrapper .extraTabledataAbhi {
+  height: 69vh !important ;
+  overflow-y: auto !important;
+  font-size: 14px !important;
+}
+
+/* modal */
+/* .UserListWrapper .showModalBlur {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+*/
+
+.UserListWrapper .ModalWindow {
+  width: 100%;
+}
+
+/* .UserListWrapper .addCardColor{
+  width: 140px;
+  height: 37px;
+  background: #FFFFFF;
+  border: 1px solid #0174FF;
+
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 3%;
+  cursor: pointer;
+} */
+/* .UserListWrapper .addStyleName{
+color: #0174FF !important;
+} */

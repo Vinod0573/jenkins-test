@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+.addUserCreateWrapper .addUserFormTopDiv {
+  background: #ffffff;
+  box-shadow: 0px 96.7895px 77.4316px rgba(36, 69, 152, 0.05),
+    0px 48.9997px 33.7554px rgba(36, 69, 152, 0.03375),
+    0px 19.3579px 12.5826px rgba(36, 69, 152, 0.025),
+    0px 4.23454px 4.47652px rgba(36, 69, 152, 0.01625);
+  border-radius: 0.5em;
+  height: 50%;
+  width: 95%;
+  /*max-height: 70%;
+  height: 35vmax;*/
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 20%;
+  text-align: center;
+  overflow-y: auto;
+  padding: 1em;
+}
+
+.addUserCreateWrapper .addUserFormTopDiv .addUserButton {
+  text-align: right;
+  font-family: "Roboto";
+  cursor: pointer;
+  /* font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 28px; */
+}
+
+.formGroupAU {
+  /*padding-right: 10px;*/
+  margin: 0.3em !important ;
+  padding: 0 !important;
+}
+
+.formAddWrapper .userCredentialsOneForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formAddWrapper .formGroupAU .input-box {
+  width: auto !important;
+  height: auto !important;
+  padding: 0px !important;
+  font-weight: bolder;
+  font-family: "Roboto";
+}
+
+.addUserCreateWrapper .addUserFormArea {
+  max-height: 35vh;
+  min-height: 20vh;
+  height: 20vmax;
+  overflow-y: auto;
+}
+
+.addUserCreateWrapper .createAndCancelButtonDiv {
+  font-family: "Roboto";
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  justify-content: space-between;
+  /*font-style: normal;
+  width: 30%;
+ margin-left: auto;
+  margin-right: auto;*/
+}
+
+.addUserCreateWrapper .createAndCancelButtonDiv .createUserButtonStyle {
+  padding: 0.75em;
+  font-weight: bold;
+  background-color: #ffffff;
+  color: #0174ff;
+  width: auto !important;
+  padding: 0.5em;
+}
+
+.parentClassNotValidated {
+  border: 1px solid red;
+  width: 100%;
+  box-shadow: 0px 9.70312px 14.5547px -2.42578px rgba(0, 0, 0, 0.12),
+    0px 4.85156px 9.70312px -2.42578px rgba(0, 0, 0, 0.07);
+}
+.parentClassValidated {
+  border: 0.906992px solid #000000;
+  width: 100%;
+  box-shadow: 0px 9.70312px 14.5547px -2.42578px rgba(0, 0, 0, 0.12),
+    0px 4.85156px 9.70312px -2.42578px rgba(0, 0, 0, 0.07);
+}
+
+.errorMessage {
+  margin-bottom: 30px;
+}
+
+.extraErrorMessageClassName {
+  justify-content: center;
+}
+
+.emailBoxLargerAF {
+  flex: 1 1 25%;
+}
+
+/*.formAddWrapper .extraStyleSelectedAreaAbhi {
+  border-radius: 10px !important;
+  position: relative !important;
+  width: 100% !important;
+}
+.formAddWrapper .extraStyleBeAbhi {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Roboto";
+  width: auto !important;
+  background-color: #ffffff !important;
+  z-index: 9 !important;
+  position: absolute !important;
+}*/
+
+.formAddWrapper .extraStyleSelectedAreaAbhi {
+  border-radius: 10px !important;
+}
+
+.formAddWrapper .extraStyleBeAbhi {
+  z-index: 9 !important;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Roboto";
+  width: auto !important;
+  position: relative !important;
+  border: none !important;
+}
+
+.formAddWrapper .dropdownUl {
+  background: #fff;
+  border: 1px black solid;
+  box-shadow: 0px 9.70312px 14.5547px -2.42578px rgba(0, 0, 0, 0.12),
+    0px 4.85156px 9.70312px -2.42578px rgba(0, 0, 0, 0.07);
+  border-radius: 5px;
+  padding: 5px !important;
+  position: absolute !important;
+  width: 100%;
+}
+
+.formAddWrapper .ddSelectedItemPara {
+  font-size: 1.15em !important;
+  color: black;
+  font-family: "Roboto";
+}
+
+.formAddWrapper .multiselect-wrapper-wrapper {
+  font-weight: 500;
+  font-family: "Roboto";
+  position: relative;
+  margin: 0px;
+}
+
+.formAddWrapper .multiselect-wrapper-wrapper .multiselect-wrapper {
+  width: 100% !important;
+  height: 100% !important;
+  padding: 0 !important;
+}
+
+.formAddWrapper .select-data {
+  font-size: 15px !important;
+  /*color: #979797 !important;*/
+  color: #000 !important;
+  font-weight: normal !important;
+}
+
+.formAddWrapper .selecteditem {
+  padding: 11px 5px !important;
+}
+
+.formAddWrapper .multiselect-wrapper-wrapper .multiselect-wrapper .multi-over {
+  max-height: 300px !important;
+  background: white !important;
+  width: 100% !important;
+  border: 1px black solid;
+  position: relative;
+  width: auto !important;
+  font-size: 15px !important;
+  padding: 5px !important;
+  margin: auto !important;
+  display: block;
+  justify-content: unset;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 9.70312px 14.5547px -2.42578px rgba(0, 0, 0, 0.12),
+    0px 4.85156px 9.70312px -2.42578px rgba(0, 0, 0, 0.07);
+}
+
+.formAddWrapper .multiselect-wrapper-wrapper .filterdataToBeSelected {
+  top: auto !important;
+  background: none !important;
+  border-radius: 5px;
+}
+
+.formAddWrapper .multiselect-wrapper-wrapper .multiselect-wrapper .search-inp {
+  width: 100% !important;
+}
+
+.formAddWrapper .multiselect-wrapper-wrapper .multiselect-wrapper .body-data {
+  text-align: left !important;
+}
+
+.formAddWrapper
+  .multiselect-wrapper-wrapper
+  .multiselect-wrapper
+  .multiselect-footer {
+  width: auto !important;
+}
+
+.formAddWrapper .languageDropdown {
+  border: 0.982333px solid black !important;
+  border-radius: 6.87633px;
+  width: 100%;
+}
+
+.formAddWrapper .languageDropdownNotValid {
+  border: 1px solid red !important;
+  border-radius: 6.87633px;
+  width: 100%;
+}
+
+.formAddWrapper .addRemoveUserIcon {
+  width: auto !important;
+  margin-right: auto !important;
+}

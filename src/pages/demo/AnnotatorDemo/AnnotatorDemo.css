@@ -1,0 +1,44 @@
+:root {
+  --wave-color-demo: hsl(282, 14%, 82%);
+
+  --bot-deg-demo: 130deg;
+
+  --customer-deg-demo: -90deg;
+  --customer-hover-color-demo: rgba(122, 240, 244, 0.22);
+  --bot-hover-color-demo: rgba(207, 237, 116, 0.22);
+
+  --sat-demo: 1800%;
+}
+/* .waveform-wrapper_demo #waveform region[data-id*="customer"] {
+  background-color: transparent !important;
+  backdrop-filter: hue-rotate(var(--customer-deg)) saturate(var(--sat));
+}
+.waveform-wrapper_demo #waveform region[data-id*="bot"] {
+  background-color: transparent !important;
+  backdrop-filter: hue-rotate(var(--bot-deg)) saturate(var(--sat));
+} */
+.waveform_demo {
+  margin: 30px;
+}
+.waveform-wrapper_demo #waveform region[data-id*="customer"] {
+  backdrop-filter: hue-rotate(var(--customer-deg-demo))
+    saturate(var(--sat-demo));
+  background-color: var(--customer-hover-color-demo) !important;
+}
+.waveform-wrapper_demo #waveform region[data-id*="bot"] {
+  backdrop-filter: hue-rotate(var(--bot-deg-demo)) saturate(var(--sat-demo));
+  background-color: var(--bot-hover-color-demo) !important;
+}
+
+.conversationcards_Demo {
+  width: 520px;
+}
+.demo_conversation {
+  padding: 0px 200px;
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+.waveform_demo region[data-id="trimmer"] {
+  background-color: transparent !important;
+}

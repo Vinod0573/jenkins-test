@@ -1,0 +1,48 @@
+
+.selectdomainWrapper .selectDomain-div{
+    width: 267px;
+    height: 94px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 96.7895px 77.4316px rgba(36, 69, 152, 0.05), 0px 48.9997px 33.7554px rgba(36, 69, 152, 0.03375), 0px 19.3579px 12.5826px rgba(36, 69, 152, 0.025), 0px 4.23454px 4.47652px rgba(36, 69, 152, 0.01625);
+    border-radius: 7px;
+    cursor: pointer;
+}
+.selectdomainWrapper .selectDomain-div:hover{
+   background: #DDECFF;
+   outline:  1px solid #0174FF;
+}
+.selectdomainWrapper .domain-logo-div img{
+  width: fit-content;
+  height: fit-content;
+  
+   
+}
+.selectdomainWrapper .domain-logo-div{
+   width: 63px;
+   height: 63px;
+   margin: 4%;
+    border-radius: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selectdomainWrapper .domain-name-div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+
+color: #000000;
+   width: 60%
+}

@@ -1,0 +1,48 @@
+.DatePickerMainDiv .extraClassDatePicker {
+  background-color: #ddecff;
+  border: none;
+  cursor: pointer;
+  padding-left: 50px;
+}
+
+.DatePickerMainDiv .react-datepicker__month {
+  background-color: #ffffff;
+}
+
+.DatePickerMainDiv .react-datepicker__day--selected {
+  background-color: #0174ff;
+}
+
+.DatePickerMainDiv .react-datepicker__header {
+  background-color: #ddecff;
+  font-family: "Roboto";
+}
+
+.DatePickerMainDiv .react-datepicker {
+  position: absolute;
+  border: 0.5px solid black;
+}
+
+.DatePickerMainDiv
+  .react-datepicker-popper[data-placement^="bottom"]
+  .react-datepicker__triangle {
+  display: none;
+}
+
+.input-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* .extraClassDatePicker {
+  background-color: black;
+  position: absolute;
+} */
+
+.extraClassCalendar {
+  /* position: absolute; */
+  transform: translateX(-55%);
+}

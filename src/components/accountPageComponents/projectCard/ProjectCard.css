@@ -1,0 +1,64 @@
+.ProjectCard-Wrapper{
+  position: relative;
+}
+
+.ProjectCard-Wrapper .projectCard {
+  width: 238px;
+  height: 113px;
+  border: 1px solid #0174FF;
+  box-shadow: 0px 51.0633px 40.8506px rgba(36, 69, 152, 0.05), 0px 25.8508px 17.8083px rgba(36, 69, 152, 0.03375), 0px 10.2127px 6.63822px rgba(36, 69, 152, 0.025), 0px 2.23402px 2.36168px rgba(36, 69, 152, 0.01625);
+  border-radius: 7px;
+  margin: 5px;
+  text-align: center;
+  background-color:  #FFFFFF;
+  font-family: Roboto;
+  cursor: pointer;
+}
+.ProjectCard-Wrapper .projectCard:hover{
+  background-color: #DDECFF;
+}
+.ProjectCard-Wrapper .TotalProjectDiv{
+ width: 100px;
+ height: 20px;
+ background: #0174FF;
+ border-radius: 3px;
+ position: absolute;
+ left: 30%;
+ top: -10%;
+ font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 7px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #FFFFFF;
+}
+
+.ProjectCard-Wrapper .TotalMemberDiv{
+  margin-top: 5%;
+}
+.ProjectCard-Wrapper .headingProject{
+  margin-top: 10%;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  width: 100%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400 bold;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+}
+
+.ProjectCard-Wrapper .TotalMemberpara{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+}

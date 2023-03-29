@@ -1,0 +1,91 @@
+.subbarcontainerxc{
+    background-color:  #DDECFF;
+    height: 8vh;
+    width: 100%;
+    display: flex;
+   align-items: center;
+justify-content: space-between;
+   padding-left: 7px;
+padding-right: 5em;
+position: relative;
+}
+
+.right-subnavbar{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+  
+}
+.right-subnavbar img{
+    cursor: pointer;;
+}
+
+.left-subnavbar{
+   
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.subbarcontainerxc img{
+    margin: 10px;
+}
+#maskd9jd38jdflufe{
+    position: fixed
+    ;
+top:0;
+bottom: 0;
+left:0;
+right: 0;
+background-color: rgba(0,0,0,.15);
+z-index: 99;
+}
+#massdhf8233831e{
+    position: fixed
+    ;
+top:0;
+bottom: 0;
+left:0;
+right: 0;
+background-color: rgba(0,0,0,.15);
+z-index: 99;
+}
+.positiosdn932r2bjrboe9{
+    position: absolute;
+    z-index:100;
+    top:4.1em;
+    width: 210px;
+}
+.possjdh832jhcsdocwo{
+    position: fixed;
+    z-index:110;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 420px;
+}
+ .AudioComponentDiv{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    width: 62%;
+    height: 83%;
+}
+
+.AudioComponentDiv audio{
+    width: 60% !important;
+    height: 100% !important;
+   
+}
+.right-subnavbar .transLanguagePic{
+    width: 40px;
+    height: 40px;
+}
+.right-subnavbar .statusButtonChunking{
+    display: flex;
+    align-items: center;
+}
+.right-subnavbar .cursorNone {
+    cursor: not-allowed ;
+    pointer-events: none;
+}

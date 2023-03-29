@@ -1,0 +1,38 @@
+.warn-wrapper{
+    font-family: 'Roboto';
+    background-color: #eee;
+    border-radius: 10px;
+    min-height: 6em;
+}
+.warn-wrapper-inner{
+width: 100%;
+border-radius: 10px;
+padding-top: .8em;
+padding-bottom: .8em;
+position: relative;
+
+}
+
+.metawarndiv{
+    width: 100%;
+    margin-top: 5px;
+    display: flex;align-items: center;
+
+}
+.metawarndiv img{
+    width: 4em;
+    margin-left: 1.5em;
+}
+.metawarn{
+    color:#fe0000;
+    text-align: center;
+    width: 100%;
+font-size: 18px;
+    padding-right: 1em;
+}
+.crospopsds{
+    width: 1em;
+position: absolute;
+right: .8em;
+top:.8em
+}

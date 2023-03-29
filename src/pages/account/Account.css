@@ -1,0 +1,197 @@
+.AccountWrapper {
+  /* background: linear-gradient(196.77deg, #ffffff 11.07%, #c6d7eb 171.07%);
+  height: 90vh; */
+}
+.AccountWrapper .headdingDiv {
+  display: flex;
+  justify-content: flex-start;
+  margin: 2% 2% 0 5.5%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 56px;
+  color: #0174ff;
+}
+.AccountWrapper .InputeSearchBoxDiv {
+  width: 250px;
+  height: 35px;
+  margin-left: 5.5%;
+  border: 1.25px solid #ddecff;
+  border-radius: 7px;
+}
+.AccountWrapper .InputeSearchBoxDiv {
+  width: 250px;
+  height: 40px;
+}
+.AccountWrapper .reportTableSearchInput {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 3px 5px;
+  outline: none;
+  border: none;
+  border-radius: 8.16293px;
+}
+.AccountWrapper .DomainSelectDiv {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  cursor: pointer;
+}
+.AccountWrapper .cardContainerOuterDiv {
+  height: 54vh;
+  overflow-y: auto;
+  margin: 4%;
+  margin-top: 50px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 10%);
+  padding-top: 10px;
+  border-radius: 7px;
+}
+.AccountWrapper .cardContainerDiv {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 1%;
+  margin: 0 0% 0 9%;
+  width: 95%;
+}
+.AccountWrapper .createAccountDiv {
+  /* margin-top: 2%;
+  margin-right: 2%;
+  display: flex;
+  justify-content: flex-end; */
+  cursor: pointer;
+  /* position: sticky;
+  top: 0; */
+}
+.AccountWrapper .styleCreateDiv {
+  width: 170px;
+  height: 50px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  display: flex;
+  /* margin-top: 10px; */
+  align-items: center;
+  justify-content: center;
+}
+.AccountWrapper .stylePlusSign {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  /* line-height: 36px; */
+
+  color: #0174ff;
+}
+.AccountWrapper .styleCreateName {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  /* line-height: 27px; */
+  margin: 5px;
+  padding-left: 4px;
+  color: #0174ff;
+}
+.AccountWrapper .accountCreatTopDiv {
+  position: absolute;
+  left: 78.61%;
+  right: 2.57%;
+  top: 20.55%;
+  bottom: 74.9%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.AccountWrapper .accountIconDiv {
+  width: 55px;
+  height: 55px;
+  cursor: pointer;
+}
+.AccountWrapper .imgAccountIcon {
+  /* width: 55px;
+  margin-top: 3px; */
+  width: 59px;
+  margin-top: -1px;
+}
+
+.AccountWrapper .cardInnerOnly {
+  margin: 1% 1%;
+}
+.AccountWrapper .showModalBlur {
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  /* padding-top: 100px; */
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AccountWrapper .frstSticky {
+}
+.AccountWrapper .paraData {
+  text-align: center;
+  font-size: 20px;
+  font-family: Roboto;
+  margin: 0 auto;
+}
+.AccountWrapper .domainExtraStyleL {
+  width: 200px;
+  height: 40px;
+  background: #ffffff;
+  box-shadow: 0px 89.1769px 71.3415px rgba(36, 69, 152, 0.05),
+    0px 45.1458px 31.1004px rgba(36, 69, 152, 0.03375),
+    0px 17.8354px 11.593px rgba(36, 69, 152, 0.025),
+    0px 3.90149px 4.12443px rgba(36, 69, 152, 0.01625);
+  border-radius: 26.7191px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.AccountWrapper .goBackIcon {
+  cursor: pointer;
+}
+.AccountWrapper .gobackDiv {
+  padding-left: 2%;
+  padding-top: 1%;
+}
+.AccountWrapper .loderAcc {
+  display: flex !important;
+  justify-content: center !important;
+  width: 100%;
+  height: 1%;
+}
+
+.AccountWrapper .disabled-com {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.AccountWrapper .createNewAccountDiv {
+  position: absolute;
+  top: 28%;
+  left: 35%;
+}
+.AccountWrapper .createNewAccountDiv .createNewAccountHeading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 56px;
+  color: #1a81fe;
+}
+
+.AccountWrapper .createNewAccountDiv .createNewAccountImage {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  padding-left: 10%;
+  height: auto;
+}

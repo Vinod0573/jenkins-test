@@ -1,0 +1,248 @@
+.AddUserOptionPageWrapper {
+  background-color: #ffffff;
+  padding: 0px 2.98vw 0px 3.19vw;
+  height: 90vh;
+}
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+.AddUserOptionPageWrapper .headerDiv {
+  display: flex;
+  justify-content: space-between;
+  /* padding-top: 2.10vh; */
+  height: 15.87vh;
+  transform: translateY(10px);
+}
+.AddUserOptionPageWrapper .firstHeaderDiv {
+  width: 38.04%;
+  display: flex;
+  align-items: center;
+}
+.AddUserOptionPageWrapper .secondHeaderDiv {
+  width: 25.38%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.AddUserOptionPageWrapper .searchBoxContainer {
+  margin-left: 10%;
+}
+.AddUserOptionPageWrapper .InputeSearchBoxDiv {
+  width: 230px;
+  height: 32px;
+  border: 1.25px solid #ddecff;
+  border-radius: 7px;
+}
+.AddUserOptionPageWrapper .reportTableSearchInput {
+  /* margin-left: 10px;
+padding-left: 10px;
+width: 270px;
+height: 30px;
+margin: 10px 10px; */
+  background-color: #ffffff;
+  width: 100%;
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+}
+
+.AddUserOptionPageWrapper .addUserDiv {
+  width: 40.3%;
+}
+.AddUserOptionPageWrapper .addUserDiv--blue {
+  background: #0174ff !important;
+}
+
+.AddUserOptionPageWrapper .createUserExtraClass {
+  width: 160px;
+  height: 36px;
+  background-color: #ffffff;
+  border-radius: 6.13655px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  padding: 7px 12px 3px 12px;
+  white-space: nowrap;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+.AddUserOptionPageWrapper .createUserExtraStyleName {
+  color: grey !important;
+}
+.AddUserOptionPageWrapper .addCardColor {
+  background: #ffffff;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 7px 12px 3px 12px;
+  cursor: pointer;
+  color: #7a7979 !important;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+.AddUserOptionPageWrapper .addUserStyleName--grey {
+  color: #7a7979 !important;
+  white-space: nowrap;
+}
+.AddUserOptionPageWrapper .addUserStyleName--white {
+  color: #ffffff !important;
+  white-space: nowrap;
+}
+.AddUserOptionPageWrapper .userParaDiv {
+  margin-left: 6.61%;
+  width: 17.5%;
+  height: 17.3%;
+}
+.AddUserOptionPageWrapper .userPara {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.AddUserOptionPageWrapper .extraSaarthiTableThead {
+  position: sticky;
+  background-color: #0174ff !important;
+  height: 40px !important;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  padding-top: 100px;
+  border-radius: 100px;
+}
+.AddUserOptionPageWrapper .extraSaarthiTableThead .titleName .titlePara {
+  padding-right: 0px !important;
+  flex: 0 0 100%;
+}
+.AddUserOptionPageWrapper .extraSaarthiTableTrow {
+  background-color: #ddecff !important;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+  border-collapse: collapse !important;
+  border-style: none !important;
+}
+.AddUserOptionPageWrapper .tableDiv .toogleSwitch .neo-switch label {
+  width: 20px;
+  height: 10px;
+  position: relative;
+}
+.AddUserOptionPageWrapper .tableDiv .toogleSwitch .neo-switch label span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  box-shadow: -2px -4px 6px 0px rgba(255, 255, 255, 0.6),
+    2px 4px 6px 0px rgba(136, 165, 191, 0.6);
+  transition: all 0.3s ease;
+  background: #8ada9c;
+}
+.AddUserOptionPageWrapper
+  .tableDiv
+  .toogleSwitch
+  .neo-switch
+  #toggle-input:checked
+  + label
+  span {
+  transform: translateX(2rem);
+}
+.AddUserOptionPageWrapper .inputAddUser {
+  width: 100px;
+}
+.AddUserOptionPageWrapper .goBackIcon {
+  width: 0.6em;
+  height: auto;
+  color: #7a7979;
+}
+.AddUserOptionPageWrapper .gobackDiv {
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+  min-width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* Table */
+.AddUserOptionPageWrapper .extraTabledataAbhi {
+  height: 68.5vh !important ;
+  overflow-y: auto !important;
+  font-size: 14px !important;
+  margin: 4px;
+}
+/* table scrollbar */
+.AddUserOptionPageWrapper .extraTabledataAbhi::-webkit-scrollbar {
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.AddUserOptionPageWrapper .extraTabledataAbhi::-webkit-scrollbar-thumb {
+  background-color: rgba(169, 169, 169, 0.481);
+  border-radius: 5px;
+}
+.AddUserOptionPageWrapper .extraTabledataAbhi td {
+  border-left: 1px solid #ddecff;
+  border-right: 1px solid #ddecff;
+  border-top: 2px solid white;
+  border-bottom: 1px solid white;
+}
+.AddUserOptionPageWrapper .extraTabledataAbhi th {
+  border-left: 0.5px solid white;
+  border-right: 0.5px solid white;
+  border-top: 0.5px solid #f5f5f5;
+}
+.AddUserOptionPageWrapper .extraSaarthiTableTrow tr {
+  height: 41px;
+}
+.AddUserOptionPageWrapper .extraTabledataAbhi table {
+  border-radius: 6px 6px 0px 0px;
+}
+.AddUserOptionPageWrapper .showModalBlur {
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  /* padding-top: 100px; */
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.AddUserOptionPageWrapper .ModalWindow {
+  width: 100%;
+}
+
+.AddUserOptionPageWrapper .box {
+  width: 500px;
+}
+.AddUserOptionPageWrapper .btnDisable {
+  pointer-events: none;
+  opacity: 0.5;
+}
+.AddUserOptionPageWrapper .pagination {
+  margin: 0px auto;
+  display: flex;
+  list-style: none;
+  outline: none;
+  justify-content: center;
+  align-items: center;
+}

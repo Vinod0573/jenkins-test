@@ -1,0 +1,75 @@
+.NoOfPeersDropDown .extraStyleSelectedOption {
+  border: none !important;
+  padding: 8px 10px !important;
+  min-width: 180px;
+  background: #ffffff;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 6.13655px !important;
+}
+
+.NoOfPeersDropDown .dropdownJpWrapper .extraStyleSelectedOption .ImgSrcStyling {
+  width: 22px !important;
+}
+
+.NoOfPeersDropDown
+  .dropdownJpWrapper
+  .extraStyleSelectedOption
+  .ddSelectedItemPara {
+  font-family: "Roboto" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+  line-height: 18px !important;
+  color: #000000 !important;
+}
+
+.NoOfPeersDropDown .extraStyleForSelect {
+  border: none !important;
+  width: auto !important;
+  position: relative !important;
+  height: auto !important;
+}
+
+.NoOfPeersDropDown .dropdownUl {
+  background: #fff;
+  box-shadow: 0 12px 32px rgb(26 26 26 / 20%);
+  padding: 0px !important;
+  position: absolute !important;
+  width: 100%;
+  overflow-y: scroll;
+  border-radius: 6px !important;
+}
+
+.NoOfPeersDropDown .extraStyleForSelect .dropdownLi {
+  list-style-type: none;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px 4px 10px 15px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto";
+  color: #333333 !important;
+}
+
+.NoOfPeersDropDown .extraStyleForSelect .dropdownLi:hover {
+  list-style-type: none;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px 4px 10px 15px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+  line-height: 25px;
+  display: flex;
+  color: #000 !important;
+  align-items: center;
+  background: #2f80ed !important;
+}
+
+.NoOfPeersDropDown .SelectedNumber {
+  color: #2f80ed !important;
+}

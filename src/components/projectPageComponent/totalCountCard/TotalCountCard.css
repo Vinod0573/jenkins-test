@@ -1,0 +1,136 @@
+.TotalCountCardWrapper .TotalCountCardDiv {
+  /* width: 250px;
+  height: 100px; */
+  padding: 10px;
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+  width: 293.62px;
+  height: 136.22px;
+  background: #f9f9f9;
+  border: 0.569797px solid #979797;
+  border-radius: 6.83756px;
+  /* box-shadow: 0px 90.704px 72.5632px rgba(36, 69, 152, 0.05), 0px 45.9189px 31.633px rgba(36, 69, 152, 0.03375), 0px 18.1408px 11.7915px rgba(36, 69, 152, 0.025), 0px 3.9683px 4.19506px rgba(36, 69, 152, 0.01625); */
+  /* cursor: pointer; */
+}
+
+/* .TotalCountCardWrapper .TotalCountCardDiv:hover {
+  background-color: #ddecff;
+} */
+
+.TotalCountCardWrapper .TotalCountCardDiv .HeadindDiv {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+  padding: 0px 6%;
+  display: flex;
+  align-items: center;
+  /* margin-left: 10%; */
+}
+
+.TotalCountCardWrapper .TotalCountCardDiv .TopCardDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.TotalCountCardWrapper .TotalCountCardDiv .containerDiv {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.TotalCountCardWrapper .TotalCountCardDiv .IconDiv {
+  width: 40px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+}
+
+.TotalCountCardWrapper .TotalCountCardDiv .ToolTipDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TotalCountCardWrapper .TotalCountCardDiv .CountDiv {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  /* padding: 0px 8px 8px 8px; */
+  padding-top: 20px;
+  color: #0174ff;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+/* .TotalCountCardWrapper .iconImgTotal {
+  width: 70px;
+  height: 50px;
+} */
+
+.TotalCountCardWrapper .TotalCountCardDiv .StatusDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.TotalCountCardWrapper .TotalCountCardDiv .StatusProgressDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.TotalCountCardWrapper .TotalCountCardDiv .SubHeading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.6751px;
+  line-height: 24px;
+  display: flex;
+  justify-content: center;
+  color: #626d7d;
+  width: 115.42px;
+  height: 24px;
+}
+
+.TotalCountCardWrapper .TotalCountCardDiv .CountStyling {
+  width: 115.42px;
+  height: 33.7px;
+  border-radius: 11.3959px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  color: #333333;
+}
+
+.TotalCountCardWrapper .TotalCountCardDiv .ProgressBg {
+  background: #e8e8e8;
+}
+
+.TotalCountCardWrapper .TotalCountCardDiv .CompleteBg {
+  background: #ddecff;
+}
+
+.TotalCountCardWrapper .extraTextDivStylingClass {
+  position: absolute;
+  z-index: 10;
+  top: -15px !important;
+  left: -190px !important;
+  width: 200px !important;
+}
+
+.TotalCountCardWrapper .extraTextStylingClass {
+  width: 200px !important;
+}

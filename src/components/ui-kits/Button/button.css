@@ -1,0 +1,131 @@
+.basic:not(.disabled) {
+  cursor: pointer;
+}
+.basic.disabled {
+  cursor: not-allowed;
+}
+.short-loader {
+  width: 12px;
+  height: 12px;
+  border: 0.2em solid transparent;
+  border-top-color: currentcolor;
+  border-bottom-color: currentcolor;
+  border-radius: 50%;
+  position: relative;
+  animation: 1s loader-30 linear infinite;
+  display: inline-block;
+}
+.short-loader:before,
+.short-loader:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  border: 0.2em solid transparent;
+  border-bottom-color: currentcolor;
+}
+.short-loader:before {
+  transform: rotate(135deg);
+  right: -0.3em;
+  top: -0.05em;
+}
+.short-loader:after {
+  transform: rotate(-45deg);
+  left: -0.3em;
+  bottom: -0.05em;
+}
+@keyframes loader-30 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.basic {
+  text-align: center;
+  border: none;
+  outline: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.basic img {
+  margin-left: 4px;
+  object-fit: contain;
+  vertical-align: middle;
+}
+.btn-text {
+  margin-top: 2px;
+}
+.buy-sell-alignment {
+  margin-top: 2px;
+  padding-right: 5px;
+}
+.button-btn-primary {
+  background-color: #191919;
+  color: #C39F42;
+  font-size: 14px;
+  cursor: pointer;
+  height: 40px;
+  font-family: 'noto_sansmedium';
+  border: 1px solid #C39F42;
+}
+.btn-radius {
+  border-radius: 70px;
+}
+.button-btn-primary:hover:not(.disabled) {
+  background: #C39F42;
+  color: #ffffff;
+}
+.button-btn-primary:focus {
+  outline: none;
+}
+.button-btn-primary:active:not(.disabled) {
+  background: #C39F42;
+  color: #ffffff;
+}
+.button-btn-primary.disabled {
+  opacity: 0.5;
+}
+.button-btn-secondary {
+  border: 1px solid #C39F42;
+  background: #191919;
+  color: #C39F42;
+  font-size: 14px;
+  padding: 5px 10px;
+  cursor: pointer;
+  height: 40px;
+  font-family: 'noto_sansmedium';
+}
+.button-btn-secondary:hover:not(.disabled) {
+  opacity: 0.95;
+}
+.button-btn-secondary:focus {
+  outline: none;
+}
+.button-btn-secondary.disabled {
+  opacity: 0.5;
+}
+.button-btn-tertiary {
+  border: 1px solid #313131;
+  background: #313131;
+  color: #FFFFFF;
+  font-size: 16px;
+  cursor: pointer;
+  height: 40px;
+  font-family: 'noto_sansmedium';
+}
+.button-btn-tertiary:hover:not(.disabled) {
+  opacity: 0.95;
+}
+.button-btn-tertiary:focus {
+  outline: none;
+}
+.button-btn-tertiary.disabled {
+  outline: none;
+  opacity: 0.5;
+}

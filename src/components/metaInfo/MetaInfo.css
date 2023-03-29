@@ -1,0 +1,131 @@
+.meta-info-wrapper {
+  font-family: "Roboto";
+}
+.meta-info-wrapper-inner {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+.metatilte {
+  margin-top: .9em;
+  margin-bottom: .9em;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #676767;
+}
+.audio-text {
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+
+}
+.lang {
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+}
+.langua {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #676767;
+}
+
+.carat {
+  margin-top: 5px;
+  cursor: pointer;
+  margin-left: 1em;
+}
+.slectedlang {
+  display: flex;
+  color: #0174ff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin-left: 1.5em;
+  align-items: center;
+}
+
+.blue-upload-btn {
+    background-color: #0174ff;
+    width: 100%;
+    display: flex;align-items: center;
+    justify-content: center;
+    height: 2.5em;
+    border-radius: 4px;
+    margin-top: 1.5em;
+
+}
+.blue-upload-btn-text{
+    font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+color:white;
+text-align: center;
+}
+.maskeddf{
+position:fixed;
+top:0;
+left:0;
+right:0;
+bottom: 0;
+background-color: rgba(0, 0, 0, .12);
+}
+.lndrel{
+  position: relative;
+}
+.bringssdtop{
+  width:200px;
+  position: absolute;
+  top:86%;
+  left: 59%;
+  transform: translate(-50%,-50%);
+}
+
+.formatmkdjd{
+  margin-top: .3em;
+}
+.mtmksd{
+  margin-top: 6px;
+}
+
+
+#maksedhdsjdi{
+  position:fixed;
+top:0;
+left:0;
+right:0;
+bottom: 0;
+background-color: rgba(0, 0, 0, .12);
+}
+
+#positionsfddsjdf{
+  width:200px;
+  position: absolute;
+  top:75%;
+  left: 56.2%;
+  transform: translate(-50%,-50%);
+  z-index:10000000;
+}
+
+#maskeddjfdueyw{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .12);z-index: 999;
+}
+#posirerneusdheri{
+  width:31.5%;
+  position: absolute;
+  top:40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index:1000;
+}

@@ -1,0 +1,47 @@
+.wrapper {
+  * {
+    font-family: Roboto;
+  }
+  padding: 12px;
+  width: 512px;
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+    .time {
+      //styleName: Body/12/12 Regular;
+      font-family: Roboto;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16px;
+      letter-spacing: 0em;
+      text-align: left;
+
+      color: #979797;
+    }
+  }
+  .logo {
+    display: flex;
+    p {
+      min-width: 50px;
+      margin-left: 4px;
+      color: #0174ff;
+      font-family: Roboto;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+  .message {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7a7979;
+    margin-top: 5px;
+  }
+}

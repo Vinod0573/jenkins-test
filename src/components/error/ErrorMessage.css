@@ -1,0 +1,18 @@
+.errorTopDiv {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 5px;
+}
+.errorTopDiv img {
+  width: 14px;
+}
+
+.errorTopDiv p {
+  color: red;
+  font-size: 12px;
+  position: relative;
+  top: 1px;
+  margin-top: 0;
+}
+

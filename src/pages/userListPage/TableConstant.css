@@ -1,0 +1,44 @@
+.UserListWrapper .toogleSwitch .switch {
+    background-color: #0174FF;
+    width: 23px;
+    height: 23px;
+    border: none;
+    /* transform: translate(-4px,6.5px); */
+  }
+
+  /* .UserListWrapper .toogleSwitch .inner::before{
+    background-color: white;
+    font-size: 11px;
+  } */
+
+  /* .UserListWrapper .toogleSwitch .toggle-switch{
+    margin: 0px 0px 0px 10px;
+} */
+  .UserListWrapper .dropDownIcon {
+    transform: scale(.8) translateY(2px);
+  }
+
+  /* multiSelect */
+  .UserListWrapper .extraClassMultiSelectWrapper{
+    position: absolute;
+    transform: translate(-40px, 10px);
+    width: 200px;
+  }
+  .UserListWrapper .extraClassMultiSelectWrapper .multiselect-inner{
+    border-radius: 7px 7px 0px 0px;
+  }
+  .UserListWrapper .extraClassMultiSelectWrapper .optionsofcheck:last-child {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .UserListWrapper .extraClassMultiSelectWrapper .down-section-mll3874{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+  }
+  
+  .UserListWrapper .extraClassMultiSelectWrapper .options-para{
+    text-transform: capitalize;
+  }
+

@@ -1,0 +1,74 @@
+.bigrightside {
+  display: inline;
+
+  width: 100%;
+  float: right;
+  animation: slide1 0.2s ease-out;
+}
+@keyframes slide1 {
+  from {
+    width: calc(100% - 240px);
+  }
+  to {
+    width: 100%;
+  }
+}
+.smallrightside {
+  display: inline;
+
+  width: calc(100% - 240px);
+  float: right;
+  max-height: 80vh;
+}
+.columnar {
+  display: flex;
+
+  flex-direction: column;
+  padding-top :7px;;
+  margin-top: 1em;
+
+  height: 45vh;
+
+  overflow-y: scroll;
+
+  transition: height 0.5s ease-in-out;
+}
+.botwala-converations {
+  align-self: flex-start;
+  margin-left: 14%;
+  margin-bottom: 2em;
+  border-radius: 7px;
+  box-shadow: rgba(0,0,0,.35) 0px 5px 15px;
+}
+.clientwala-converations {
+  align-self: flex-end;
+  margin-right: 14%;
+  margin-bottom: 2em;
+  border-radius: 7px;
+  box-shadow: rgba(0,0,0,.35) 0px 5px 15px;
+}
+.columnar2 {
+  min-height: 78vh;
+}
+.chunkSideWrapper {
+  min-height: 81vh;
+  max-height: 81vh;
+  overflow-y: hidden;
+}
+.transcriptChunkingwrapper .hideVissibility{
+ display: none;
+}
+.transcriptChunkingwrapper .chunsidewrapper{
+  display: flex;
+}
+.transcriptChunkingwrapper .lodderUpdate{
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: "Roboto";
+  padding-right: 5px;
+}
+.transcriptChunkingwrapper .lodderLibery{
+  display: flex;
+  align-items: center;
+}

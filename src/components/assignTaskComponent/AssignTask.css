@@ -1,0 +1,108 @@
+/* .assignTaskDropdown{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    background-color: #FFFFFF !important;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 7px !important;
+} */
+
+/* .assignTaskDropdown .Dropdown_button__24tY9 ,.Dropdown_button-secondary__S0fsL{
+    width: 100% !important;
+    background-color: white !important;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1) !important;
+} */
+
+.assignTaskDropdown {
+  /* width: 200px !important; */
+  height: 37px;
+  background-color: #000000 !important;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 7px !important;
+}
+*/ .assignTaskDropdown .Dropdown_menu__2APrD ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.assignTaskDropdown .Submenu_submenu__1PCnm ul {
+  margin: 0;
+  min-width: none;
+}
+
+.assignTaskDropdown .Submenu_submenu__1PCnm ul .ssdd-wrapper {
+  color: black;
+}
+
+.assignTaskDropdown .Submenu_right__3fJhN {
+  left: 100%;
+}
+
+.titleDropdownClass .Dropdown_dropdown__2JICB {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.dropdownSubClass .dropdownParaDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdownSubClass .dropdownMainTitleHeading {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.assignTitletopClass {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+/* box-shadow: "0px 6px 12px rgba(0, 0, 0, 0.1)"; */
+/* padding:5% 5%; */
+/* .assignTaskDropdown .Item_item__34h1P .dropdownSubClass {
+    font-family: 'Roboto' !important;
+    font-weight: bold !important;
+    font-size: 15px !important;
+} */
+
+.space-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* flex-direction: column; */
+  flex-direction: row;
+}
+
+.space-btn:hover {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row !important;
+}
+
+.row-div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+}
+
+.row-div .name {
+  width: 50%;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+.assignTaskDropdown input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

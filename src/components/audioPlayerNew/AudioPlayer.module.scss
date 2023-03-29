@@ -1,0 +1,91 @@
+.wrapper {
+  background: #c2ddf9;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 500px;
+  height: 40.3px;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  .time {
+    color:#0174ff;
+    font-family: 'Roboto';
+    font-size: 13px;
+  }
+  .playPause {
+    cursor: pointer;
+
+    img {
+      max-width: 14px;
+      max-height: 18px;
+    }
+  }
+  .bar {
+    width: 60%;
+    display: flex;
+  }
+
+  .speaker {
+    cursor: pointer;
+
+    width: 10px;
+    height: 10px;
+    position: relative;
+    .volumeCover {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background-color: white;
+      position: absolute;
+      top: 100%;
+      width: 230px;
+      height: 25px;
+      left: -163px;
+      z-index: 100;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+      .changeVolume {
+        user-select: none;
+        min-width: 20px;
+        font-size: 1.5em;
+        cursor: pointer;
+        text-align: center;
+        &:first-child{
+          font-size: 2.1em;
+        }
+      }
+    }
+  }
+  .speed {
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    .playbackrate {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      position: absolute;
+      top: 10px;
+      left: -8px;
+      z-index: 100;
+      filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.25));
+      span {
+        background: #ffffff;
+        border-bottom: 0.5px solid #979797;
+        width: 71px;
+        height: 30px;
+        text-align: center;
+        cursor: pointer;
+        color: #979797;
+      }
+      span[data-selected="true"] {
+        background-color: #f4f4f4;
+      }
+      span:last-child {
+        border-radius: 0px 0px 4px 4px;
+      }
+    }
+  }
+}

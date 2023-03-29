@@ -1,0 +1,25 @@
+.noDataModalComponentWrapper {
+    height:100%
+}
+.noDataModalComponentWrapper .nodataModal-Div{
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    background: #f8f9fa;
+    height:100%  
+}
+.noDataModalComponentWrapper .msgNoData-p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 2em;
+color: #1A81FE;
+padding-top: 2%;
+padding-bottom: 1%;
+}
+.noDataModalComponentWrapper .nodataModalImg-img{
+    width: 50%;
+    height: 50%;
+
+}

@@ -1,0 +1,15 @@
+.icon {
+  width: 20px;
+  margin-right: 5px;
+}
+.icon:hover:not(.disabled) {
+  cursor: pointer;
+  opacity: 1;
+}
+.icon:focus {
+  outline: 1px dotted #999999;
+}
+.icon.disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}

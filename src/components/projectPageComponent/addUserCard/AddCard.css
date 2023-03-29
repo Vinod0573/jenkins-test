@@ -1,0 +1,22 @@
+.adduserCardWrapper .addUserCard{
+    width: 140px;
+    height: 37px;
+    background-color: #FFFFFF;
+    border-radius: 6.13655px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   cursor: pointer;
+   padding-top: 4%;
+}
+.adduserCardWrapper .nameDiv{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #000000;
+}

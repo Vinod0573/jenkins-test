@@ -1,0 +1,52 @@
+.dnd-progress-wrapper{
+    font-family: 'Roboto';
+    position: relative;
+}
+
+.dnd-progress-wrapper .file-progress-txt{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: .5em;
+    padding-right: .5em;
+    height: 2.5em;
+    border-radius: 4px;
+    border :.5px solid #E3E3E3;
+
+}
+
+.dnd-progress-wrapper .fn{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color:#0F0F0F;
+line-height: 18px;
+}
+.dnd-progress-wrapper .progress-parent{
+    position: absolute;
+    bottom: 0;;
+    height: 3px;
+    border-radius: 3px;
+    transform: translateY(1px);
+    width:100%;
+    background-color: transparent;
+}
+.dnd-progress-wrapper .progress-parent .progress{
+   height: 3px;
+
+   background-color:#11AF22;
+   border-radius: 3px;
+
+}
+.uploadingcs{
+    margin-top: 1em;
+  margin-bottom: 1em;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #676767;
+}

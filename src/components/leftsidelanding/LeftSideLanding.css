@@ -1,0 +1,132 @@
+.LeftSideLandingWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  
+}
+
+.minimal-width{
+    width: 180px !important;
+}
+
+.LeftSideLandingWrapper .ButtonComponent{
+    padding: 5px 23px;
+    border-radius:7px;
+    margin: 0 5px;
+    outline: none;
+    border: none;
+    background: #ffffff;
+    color: #333333;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    width: 100%;
+    margin: 5px;
+    height: 30px;
+    cursor: pointer;
+    box-shadow: 0px 33.6068px 26.8855px rgba(36, 69, 152, 0.05),
+    0px 17.0134px 11.7204px rgba(36, 69, 152, 0.03375),
+    0px 6.72136px 4.36889px rgba(36, 69, 152, 0.025),
+    0px 1.4703px 1.55432px rgba(36, 69, 152, 0.01625);
+}
+
+.LeftSideLandingWrapper .ButtonComponent:hover{
+    background: #0174FF;
+    color: #ffffff;
+}
+
+.LeftSideLandingWrapper .isActive{
+    background: #0174FF;
+    color: #ffffff;
+}
+
+.LeftSideLandingWrapper .navBar{
+    height: 8vh;
+    background-color: rgba(198, 215, 235, 0.27);
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.LeftSideLandingWrapper .ButtonCollection{
+    padding: 10px;
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+.LeftSideLandingWrapper .ButtonComponent:hover{
+    background-color: #DDECFF ;
+    color:black;
+}
+
+.LeftSideLandingWrapper  .isActiveButton{
+    background-color: #DDECFF ;
+    color:black;
+   
+}
+
+.LeftSideLandingWrapper .button-comp{
+    position: relative;
+}
+
+.LeftSideLandingWrapper .selectedNotValidated{
+    border: 1px solid black !important;
+}
+
+.LeftSideLandingWrapper .dropdownJpWrapper .selecteditem{
+    border-radius: 7px;
+    height: 30px;
+}
+
+.LeftSideLandingWrapper .drop-section{
+    width: 100%;
+    padding: 0px 10px;
+}
+
+.LeftSideLandingWrapper .input-box{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0px;
+}
+.LeftSideLandingWrapper .dropdownToBeSelected{
+    position: absolute !important;
+    width: 18.5% !important;
+}
+
+.LeftSideLandingWrapper .search-section{
+    width: 100%;
+    padding: 0px 10px;
+}
+
+.LeftSideLandingWrapper .drop-section{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.LeftSideLandingWrapper .dot-done {
+    height: 10px;
+    width: 10px;
+    background-color: #61FF00;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    margin-left: 5px;
+  }
+
+
+.LeftSideLandingWrapper .dot-inprogress {
+    height: 10px;
+    width: 10px;
+    background-color: #F5222D;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    margin-left: 5px;
+  }

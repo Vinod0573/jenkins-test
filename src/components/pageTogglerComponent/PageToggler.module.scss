@@ -1,0 +1,38 @@
+.wrapper {
+  max-height: 100%;
+  .header {
+    border-bottom: 2px solid #cccccc;
+    // background-color: white;
+    // position: fixed;
+    span {
+      cursor: pointer;
+
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 28px;
+   
+
+      color: #333333;
+      margin-right: 3rem;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 48px;
+      padding: 10px;
+      padding-bottom: 13px;
+      &[data-selected="true"] {
+        font-weight: 500;
+        color: #0174ff;
+        border-bottom: 2px #0174ff solid;
+      }
+    }
+  }
+  .tab {
+    overflow-y: overlay;
+    max-height: 80vh;
+    height: 100% !important;
+    // min-height: 80vh;
+    width: 100% !important;
+  }
+}

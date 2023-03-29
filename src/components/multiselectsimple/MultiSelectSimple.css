@@ -1,0 +1,114 @@
+.multi-select-options-wrapper {
+  font-family: "Roboto";
+  border-radius: 14px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 240px;
+  background-color: #fff;
+}
+.multiselect-inner {
+  width: 100%;
+  border-radius: 7px;
+  max-height: 14em;
+  overflow-y: scroll;
+}
+.optionsofcheck {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 2.8em;
+  background-color: white;
+}
+.optionsbggreyshd {
+  background-color: #d8d8d8;
+}
+
+.optionsofcheck:last-child {
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+.optionsofcheck:first-child {
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+.optionsofcheck:hover {
+  background-color: #d8d8d8;
+}
+
+.multiselectmk {
+  height: 2;
+}
+.optioncheck {
+  transform: scale(1.2);
+  cursor: pointer;
+  outline-style: none;
+  border-style: none;
+  border: 0.5px solid #e3e3e3;
+  margin-left: 1em;
+}
+.options-para {
+  margin-left: 1em;
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #1f1e1e;
+  font-weight: 500;
+}
+/* 
+.multi-select-options-wrapper .footer-icons {
+  margin: 10px;
+  border-top: 1px solid black;
+  background-color: white;
+  border-radius: 7px;
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  background-color: #fff;
+} */
+
+.down-section-mll3874{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 7px;
+  padding-top:7px;
+  border-top:1px solid black;
+}
+.closemlmk-25{
+  width: 20px;
+  cursor: pointer;
+}
+
+.okemlmk-74{
+  width:20px;
+  cursor: pointer;
+}
+.title_weiw2{
+width: 240px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding-bottom: 7px;
+padding-top:7px;
+border-radius: 7px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+margin-bottom: 5px;
+cursor: pointer;
+}
+.tte0292-4232{
+  font-family: 'Roboto';
+  margin-left: -27px;
+}
+.carat02_293{
+  margin-right: -25px;
+  cursor: pointer;
+}
+.dnonde{
+  display: none;
+}
+.rote-sd20{
+  transition: all .25s;
+  transform: rotateZ(180deg);
+}

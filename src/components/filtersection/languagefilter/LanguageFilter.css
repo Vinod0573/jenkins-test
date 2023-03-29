@@ -1,0 +1,11 @@
+.languageFilterWrapper .extraSelectedClass{
+    width: 105px !important;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+}
+
+.languageFilterWrapper .lfTitle{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0px 5px 5px 5px;
+}

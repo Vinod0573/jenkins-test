@@ -1,0 +1,9 @@
+.createAccount-outerdiv{
+    /* background: linear-gradient(196.77deg, #FFFFFF 11.07%, #C6D7EB 171.07%);
+    height: 100vh; */
+}
+.ModalConatainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

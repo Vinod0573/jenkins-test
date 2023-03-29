@@ -1,0 +1,11 @@
+audio{
+    background-color:linear-gradient(180deg, rgba(187, 193, 201, 0) 0%, #DCE6F1 99.99%, rgba(187, 193, 201, 0) 100%);
+}
+audio::-webkit-media-controls-panel {
+    background-color:linear-gradient(0deg, #DCE6F1, #DCE6F1);
+    border-radius: 7px;
+  }
+
+audio::-webkit-media-controls-mute-button {
+    border-radius: 50%;
+  }

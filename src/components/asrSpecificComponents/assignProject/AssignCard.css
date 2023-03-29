@@ -1,0 +1,213 @@
+.AssignCardWrapper {
+  margin: 0% 0% 2% 2.5%;
+}
+.AssignCardWrapper .AssignCardOuterDiv {
+  width: 720px;
+  background: #ffffff;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  border: 2px solid #ffffff;
+}
+.AssignCardWrapper .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 15px;
+}
+.AssignCardWrapper .accountHeaderDiv {
+  width: 300px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.AssignCardWrapper .dateDiv {
+  /* display: flex;
+  align-items: center;
+  text-align: left; */
+  /* width: 135px;
+   */
+  text-align: center;
+}
+
+.AssignCardWrapper .accountDetailsTopDiv {
+  width: 700px;
+  height: 35px;
+  background: #0174ff;
+  border-radius: 7px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 2px 10px;
+  padding: 10px;
+}
+
+.AssignCardWrapper .accountDetailsHeading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #f2f2f2;
+  display: flex;
+  justify-content: space-around;
+  /* padding-left: 10px; */
+  width: 170px;
+}
+.AssignCardWrapper .projectHeading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #f2f2f2;
+  /* width: 130px; */
+  width: 170px;
+}
+.AssignCardWrapper .dataContainingDiv {
+  width: 700px;
+  height: 35px;
+  background: #ddecff;
+  border-radius: 7px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 8px 10px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.AssignCardWrapper .projNameHeading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #0174ff;
+  text-align: left;
+  /* padding-left: 8px; */
+}
+
+.AssignCardWrapper .paraHeading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #000000;
+  /* text-align: left;
+  padding-left: 8px; */
+  text-align: center;
+}
+.AssignCardWrapper .spanText {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #000000;
+  /* margin-left: 5px; */
+}
+
+.AssignCardWrapper .headingIcon {
+  padding-top: 4%;
+}
+
+.AssignCardWrapper .MainHeading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #0174ff;
+  /* padding-left: 3%;
+  padding-top: 2%; */
+}
+.AssignCardWrapper .countDiv {
+  /* width: 90px;
+  height: 28px; */
+  /* background: #deefff; */
+  /* border-radius: 8px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AssignCardWrapper .countDivP1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #0174ff;
+}
+.AssignCardWrapper .countDivP2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+/* .AssignCardWrapper .headingIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 28px;
+    display: flex;
+ justify-content: center;
+ align-items: center;
+  background: linear-gradient(
+      129.86deg,
+      #ffffff -18.92%,
+      rgba(0, 0, 0, 0) 99.07%
+    ),
+    #ffffff;
+  background-blend-mode: soft-light, normal;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+} */
+
+.AssignCardWrapper .first-sec {
+  /* width: 135px; */
+  text-align: left;
+  /* padding-left: 10px; */
+}
+
+.AssignCardWrapper .third-sec {
+  /* width: 140px; */
+  text-align: left;
+}
+
+.AssignCardWrapper .fourth-sec {
+  /* width: 140px; */
+  display: flex;
+  flex-direction: row;
+  /* justify-content: flex-start; */
+  justify-content: center;
+  align-items: center;
+}
+
+/* .AssignCardWrapper .fourth-sec .transcript {
+  margin-right: 10px;
+} */
+
+.AssignCardWrapper .second-sec {
+  /* width: 100px; */
+  text-align: left;
+}
+
+.AssignCardWrapper .vl {
+  border-left: 0.5px solid white;
+  height: 50px;
+}
+
+.AssignCardWrapper .chunking {
+  height: 26px;
+}
+
+.AssignCardWrapper .transcript {
+  width: 22.5px;
+}
+
+.AssignCardWrapper .image-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 50px;
+}
+.first-sec,
+.second-sec,
+.third-sec,
+.dateDiv {
+  width: 170px;
+}

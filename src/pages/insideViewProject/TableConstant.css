@@ -1,0 +1,88 @@
+.InsideViewProjectWrapper .dropDownIcon {
+  transform: scale(0.8) translateY(2px);
+}
+
+/* multiSelect */
+.InsideViewProjectWrapper .extraClassMultiSelectWrapper {
+  position: absolute;
+  transform: translate(-40px, 10px);
+  width: 200px;
+}
+.InsideViewProjectWrapper .status-column .extraClassMultiSelectWrapper {
+  width: 12.8vw;
+}
+
+.manualUniqueModal .extraClassMultiSelectWrapper {
+  position: absolute;
+  transform: translate(-40px, 17px);
+  width: 200px;
+}
+.manualUniqueModal .status-column .extraClassMultiSelectWrapper {
+  width: 10.5vw;
+  transform: translate(-40px, 17px);
+}
+
+.InsideViewProjectWrapper .extraClassMultiSelectWrapper .options-para,
+.manualUniqueModal .extraClassMultiSelectWrapper .options-para {
+  text-transform: capitalize;
+}
+
+.InsideViewProjectWrapper .extraClassMultiSelectWrapper .down-section-mll3874,
+.manualUniqueModal .extraClassMultiSelectWrapper .down-section-mll3874 {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: black;
+}
+
+.InsideViewProjectWrapper .extraClassMultiSelectWrapper .multiselect-inner,
+.manualUniqueModal .extraClassMultiSelectWrapper .multiselect-inner {
+  border-radius: 7px 7px 0px 0px;
+}
+
+.InsideViewProjectWrapper
+  .extraClassMultiSelectWrapper
+  .optionsofcheck:last-child,
+.manualUniqueModal .extraClassMultiSelectWrapper .optionsofcheck:last-child {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+/* sorting */
+.InsideViewProjectWrapper .clickAbleCursorPointerU,
+.manualUniqueModal .clickAbleCursorPointerU {
+  cursor: pointer;
+}
+
+/* toggle button */
+.InsideViewProjectDiv .toogleSwitch .switch {
+  background-color: #0174ff;
+  width: 23px;
+  height: 23px;
+  border: none;
+  padding-left: 15px;
+  /* transform: translate(4px,6px); */
+}
+
+/* .InsideViewProjectDiv .toogleSwitch .inner::before{
+    background-color: white;
+    font-size: 11px;
+} */
+
+/* .InsideViewProjectDiv .toogleSwitch .toggle-switch{
+    margin: 0px 0px 0px 10px;
+} */
+
+.extraStyleButton {
+  color: rgba(0, 0, 0, 0.7);
+  background: #ddecff !important;
+  /* height: 40px !important; */
+  padding: 0px 20px !important;
+  border: none !important;
+  border-radius: 0px !important;
+  font-size: 14px !important;
+}
+
+.InsideViewProjectDiv input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

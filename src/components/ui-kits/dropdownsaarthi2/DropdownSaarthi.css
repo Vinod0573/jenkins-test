@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.dropdownJpWrapper .dropdownTopDiv {
+  position: relative;
+}
+
+.dropdownJpWrapper .selecteditem {
+  background: #ffffff;
+  /* border: 1.13651px solid #000000; */
+  box-sizing: border-box;
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  /* border-radius: 7.9556px; */
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 11px 5px;
+  font-size: 12px;
+  box-shadow: 0px 9.70312px 14.5547px -2.42578px rgba(0, 0, 0, 0.12),
+    0px 4.85156px 9.70312px -2.42578px rgba(0, 0, 0, 0.07);
+}
+
+.dropdownJpWrapper .filter-section-drop {
+  border-radius: 20px;
+  height: 25px;
+  width: 170px;
+}
+
+.dropdownJpWrapper .dropdownToBeSelected {
+  /* position: absolute;
+    top: 30px; */
+  background: #ffffff;
+  border: 1.13651px solid #000000;
+  border-top: none;
+  box-sizing: border-box;
+  border-radius: 0 0 7.9556px 7.9556px;
+  width: 100%;
+  z-index: 9999;
+}
+.dropdownJpWrapper .dropdownUl {
+  padding: 10px 0px;
+}
+.dropdownJpWrapper .dropdownLi {
+  list-style-type: none;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  padding: 3px 0px;
+}
+.dropdownJpWrapper .dropdownLi:hover {
+  background: #0174ff;
+  color: #ffffff;
+}
+.dropdownJpWrapper .filter-style {
+  border: none !important;
+  background: none !important;
+}
+.dropdownJpWrapper .filter-ul {
+  padding: 0 !important;
+}
+
+.dropdownJpWrapper .selectedNotValidated {
+  border: 1px solid red;
+}
+.dropdownJpWrapper .selectedValidated {
+  border: 0.906992px solid #000000;
+}
+
+.dropdownJpWrapper .ddSelectedItemPara {
+  font-size: 16px;
+  text-align: center;
+}
+
+.dropdownJpWrapper .dropdownSearchWrapper {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+.dropdownJpWrapper .dropDownSearchInput {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 5px 5px;
+  outline: none;
+  border: none;
+  border-radius: 8.16293px;
+}
+
+.dropdownJpWrapper .dropdownTopDiv {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.dropdownJpWrapper .dropdownImage {
+  display: inline;
+  width: 40px;
+  height: 30px;
+}
+
+.dropdownJpWrapper .dropdownName {
+  width: 100px;
+  text-align: left;
+}

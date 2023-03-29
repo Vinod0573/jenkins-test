@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  height: 100%;
+  padding: 0px 30px;
+  flex-direction: column;
+  .left,
+  .right {
+    margin-bottom: 10px;
+  }
+  .left {
+    align-self: flex-start;
+  }
+  .right {
+    align-self: flex-end;
+  }
+}

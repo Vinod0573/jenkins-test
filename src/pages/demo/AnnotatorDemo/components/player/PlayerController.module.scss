@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 30px;
+  img {
+    cursor: pointer;
+  }
+  .element {
+    margin: 5px;
+  }
+  .slider {
+    position: absolute;
+    * {
+      color: #0174ff;
+    }
+    transform: translateX(100%);
+  }
+}

@@ -1,0 +1,65 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  .crossIcon {
+    width: 10px;
+    margin-left: 100%;
+    cursor: pointer;
+  }
+  * {
+    font-family: roboto;
+  }
+  .imgWrapper {
+    width: 100%;
+    display: flex;
+    min-height: 200px;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 100px;
+    }
+  }
+  .button {
+    all: unset;
+    background-color: #0174ff;
+    padding: 5px;
+    color: white;
+    border-radius: 3px;
+    margin: 5px;
+  }
+  .dragAndDropWrapper {
+    select {
+      margin: 5px;
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    .dragAndDrop {
+      background-color: rgba(0, 0, 0, 0.03);
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.05);
+      }
+      border-style: dotted;
+      border: 2px rgba(0, 0, 0, 0.158) dotted;
+      cursor: pointer;
+      width: 400px;
+      min-height: 200px;
+
+      border-radius: 10px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-direction: column;
+      h2 {
+        color: rgba(0, 0, 0, 0.3);
+        text-align: center;
+      }
+      p {
+        color: rgba(0, 0, 0, 0.3);
+      }
+    }
+  }
+}
